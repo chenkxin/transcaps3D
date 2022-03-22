@@ -1,0 +1,29 @@
+name: caps3d
+channels:
+    - defaults
+dependencies:
+    - python=3.7
+    - mkl_fft
+    - mkl_random
+    - numpy
+    - cupy
+    - cython
+    - requests
+    - scipy
+    - rtree
+    - shapely
+    - pylint
+    - pip
+    - pip:
+        - matplotlib
+        - lie_learn
+        - tensorboardX
+        - tqdm
+        - pynvrtc
+        - joblib
+        - trimesh[easy]
+        - pysnooper
+        - scikit-learn
+        - trimesh
+        - monty
+        - git+https://github.com/QiangZiBro/s2cnn

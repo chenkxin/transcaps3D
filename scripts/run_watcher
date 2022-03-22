@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/qiangzibro/caps3d
+/usr/miniconda3/envs/capsules_torch12_py37/bin/python "$@" scripts/watcher.py logs/msvc_*
